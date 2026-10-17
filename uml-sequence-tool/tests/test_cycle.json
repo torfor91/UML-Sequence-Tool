@@ -1,0 +1,7 @@
+{
+  "classes": [
+    {"name": "A", "relationships": ["B"]},
+    {"name": "B", "relationships": ["C"]},
+    {"name": "C", "relationships": ["A"]}
+  ]
+}

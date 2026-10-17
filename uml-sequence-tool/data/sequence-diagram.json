@@ -1,0 +1,16 @@
+{
+  "sequence": [
+    {
+      "actor": "User",
+      "action": "AddTask",
+      "target": "TaskManager",
+      "parameters": ["title: Buy milk"]
+    },
+    {
+      "actor": "TaskManager",
+      "action": "CreateTask",
+      "target": "Task",
+      "parameters": ["id: 1", "title: Buy milk"]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "classes": [
+    {
+      "name": "Task",
+      "attributes": ["id: int", "title: string", "completed: bool"],
+      "methods": ["MarkAsCompleted()", "UpdateTitle()"],
+      "relationships": ["User"]
+    },
+    {
+      "name": "User",
+      "attributes": ["id: int", "name: string", "tasks: List<Task>"],
+      "methods": ["AddTask()", "RemoveTask()", "ViewTasks()"],
+      "relationships": ["TaskManager"]
+    },
+    {
+      "name": "TaskManager",
+      "attributes": ["tasks: List<Task>"],
+      "methods": ["CreateTask()", "DeleteTask()"],
+      "relationships": ["Task"]
+    }
+  ]
+}

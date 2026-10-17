@@ -1,0 +1,5 @@
+C:/Users/user/Desktop/mini/uml-sequence-tool/build/CMakeFiles/uml_tool.dir
+C:/Users/user/Desktop/mini/uml-sequence-tool/build/CMakeFiles/export_html.dir
+C:/Users/user/Desktop/mini/uml-sequence-tool/build/CMakeFiles/export_json.dir
+C:/Users/user/Desktop/mini/uml-sequence-tool/build/CMakeFiles/edit_cache.dir
+C:/Users/user/Desktop/mini/uml-sequence-tool/build/CMakeFiles/rebuild_cache.dir
